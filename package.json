@@ -1,22 +1,28 @@
 {
   "name": "monday",
   "version": "1.0.0",
-  "description": "react training module",
-  "main": "index.js",
+  "description": "This is my Project\r ## Installation\r Install Node.js\r Install git.\r npm Install\r #React project template\r React project Template with automatic build\r ## Usage\r npm run build\r ## Credits\r ## License",
+  "engines": {
+    "node": "8.11.2"
+  },
+  "main": "javascript.js",
   "scripts": {
-    "test": "echo \"All tests passed\" && exit 0 ",
-    "build":"echo \"BUILD OK\" && exit 0",
-    "prebuild" : "npm run test"
-
+    "test": "echo \"All tests passed\" && exit 0",
+    "build": "echo \"BUILD OK\" && exit 0",
+    "prebuild": "npm run test",
+    "version": "node version-check.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/msquinn/react-training-monday.git"
   },
-  "author": "Matthew Quinn",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/msquinn/react-training-monday/issues"
   },
-  "homepage": "https://github.com/msquinn/react-training-monday#readme"
+  "homepage": "https://github.com/msquinn/react-training-monday#readme",
+  "dependencies": {
+    "semver": "^5.5.1"
+  }
 }
