@@ -1,0 +1,19 @@
+{
+  "name": "monday",
+  "version": "1.0.0",
+  "description": "react training module",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msquinn/react-training-monday.git"
+  },
+  "author": "Matthew Quinn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msquinn/react-training-monday/issues"
+  },
+  "homepage": "https://github.com/msquinn/react-training-monday#readme"
+}
