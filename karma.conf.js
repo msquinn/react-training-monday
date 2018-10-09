@@ -1,6 +1,6 @@
 // Karma configuration
 // Generated on Tue Oct 09 2018 10:37:29 GMT-0400 (Eastern Daylight Time)
-
+/* eslint-disable */
 module.exports = function(config) {
   config.set({
 
