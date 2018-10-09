@@ -7,10 +7,12 @@
   },
   "main": "javascript.js",
   "scripts": {
+    "lint": "eslint . --ext .js",
     "test": "echo \"All tests passed\" && exit 0",
     "build": "echo \"BUILD OK\" && exit 0",
     "prebuild": "npm run test",
-    "version": "node version-check.js"
+    "version": "node version-check.js",
+    "start": "http-server src"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,11 @@
   "homepage": "https://github.com/msquinn/react-training-monday#readme",
   "dependencies": {
     "semver": "^5.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.1",
+    "eslint-plugin-react": "^7.11.1",
+    "http-server": "^0.11.1",
+    "https-server": "^0.1.2"
   }
 }
