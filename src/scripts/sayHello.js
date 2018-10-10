@@ -1,6 +1,8 @@
-exports.greet = function greet(name){
-	if (name===undefined) {
-		return "Hello, World!";
+import React from "react";
+//import ReactDOM from "react-dom";
+class SayHello extends React.Component {
+	render(){
+		return(<h1>Hello, {this.props.name}</h1>);
 	}
-	return "Hello, "+name;
-};
+}
+export default SayHello;

@@ -1,14 +1,11 @@
-var sayHello = require("../src/scripts/sayHello.js");
+import React from "react";
+import TestUtils from "react-dom/test-utils";
+import SayHello from "../src/scripts/sayHello.js";
 
 describe('Greet',function(){
-    it('concats Hello and a name',function(){
-      var actual = sayHello.greet('Matt');
-      var expected = "Hello, Matt";
-      expect(actual).toEqual(expected);
-  }),
-  it('says Hello World when given no name',function(){
-     var actual = sayHello.greet();
-     var expected = "Hello, World!"
-     expect(actual).toEqual(expected);
-  });
+    it("renders ithout a problem",function(){
+        const sayhello =
+        TestUtils.renderIntoDocument(<SayHello/>);
+            expect(sayhello).toEqual(jasmine.anything());
+    });
 });
